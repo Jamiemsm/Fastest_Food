@@ -10,6 +10,8 @@ namespace Fastest_Food
 	{
 		private Meal meal;
 
+
+
 		public Meal Meal
 		{
 			get { return meal; }

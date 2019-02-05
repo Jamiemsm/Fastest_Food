@@ -26,7 +26,8 @@ namespace Fastest_Food
 
         private void Btn_OrderView_Click(object sender, RoutedEventArgs e)
         {
-
+             = UIMeals.SelectedItem
+            Order order = new Order();
         }
     }
 }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="OrderView" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Btn_OrderView" Content="Button" HorizontalAlignment="Left" Height="54" Margin="290,156,0,0" VerticalAlignment="Top" Width="212" RenderTransformOrigin="0.5,0.5" Click="Btn_OrderView_Click">
+        <Button x:Name="Btn_OrderView" Content="Button" HorizontalAlignment="Left" Height="54" Margin="85,42,0,0" VerticalAlignment="Top" Width="212" RenderTransformOrigin="0.5,0.5" Click="Btn_OrderView_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -17,6 +17,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <ListBox x:Name="UIMeals" HorizontalAlignment="Left" Height="119" Margin="487,63,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
