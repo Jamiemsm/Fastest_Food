@@ -65,10 +65,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFood.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="OrderView.xaml.cs">
       <DependentUpon>OrderView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Meal.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
